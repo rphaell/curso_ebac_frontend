@@ -22,6 +22,10 @@ input, textarea, button {
     margin-bottom: 8px;
     resize: none;
     border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
 }
 
 form button {
@@ -39,8 +43,7 @@ form button {
     font-size: 20px;
     text-align: center;
     display: none;
-
-
+    border-radius: 5px;
 }
 
 .error-message {
@@ -52,4 +55,5 @@ form button {
     font-size: 20px;
     text-align: center;
     display: none;
+    border-radius: 5px;
 }
