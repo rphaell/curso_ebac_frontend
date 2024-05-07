@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css">
-
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
     <div class="container">
-        <h1>Exercicio_html_js</h1>
-        <form>
-            <input id="numeroA" type="number" placeholder="Digite aqui o primeiro número">
-            <input id="numeroB" type="number" placeholder="Digite aqui o segundo número">
-            <button id = "bt-calcular" type="submit">Calcular</button>
-        </form>
-        <p class ="sucess-message"></p>
-    <p class ="error-message"></p>
-    </div>
+    <header>
+        <h1>Lista de tarefas</h1>
+    </header>
+    <form>
+        <input id="input-tarefa-nova" type="text" placeholder="Nome da tarefa" required>
+        <button id="bt-cadastrar">Cadastrar</button>
+    </form>
+    <ul>
         
-
-    <script src="main.js"></script>
+    </ul>    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"> </script>
+</div>
 </body>
 </html>
