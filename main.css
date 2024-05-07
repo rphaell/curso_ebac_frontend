@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 body {
@@ -36,6 +38,7 @@ input {
     font-size: 18px;
 }
 
+
 form button {
     margin-left: 15px;
     padding: 8px;
@@ -44,20 +47,25 @@ form button {
     border: none;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: rgb(2, 1, 0);
+    background-color: rgb(36, 36, 36);
     color: white;
 }
 
 ul {   
     list-style: none;
-    background-color: rgb(255, 253, 151); 
     padding: 16px;
     width: 80%;
     margin-top: 15px;
+    font-size: 20px;
 }
 
-ul {    
-    font-size: 20px;
+ul li{ 
+    border-radius: 5px;
+    background-color: rgb(213, 235, 255); 
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    margin-bottom: 5px;  
+    font-size: 18px;
 }
 
 .line-through {
