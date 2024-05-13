@@ -1,66 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-
 body {
-    background-color: #fff8d1;
+    padding: 50px;
 }
 
-.container {
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 16px;
-    display: flex;
-    justify-content: center;
-}
-
-.container h2 {
-    margin: 50px 0;
-    text-transform: uppercase;
-}
-
-button {
-    display: block;
-    width: 100%;
-    padding: 8px 0;
-    border: none;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    font-style: italic;
-    background-color: rgb(43, 43, 43);
-    border-radius: 5px;
-    cursor:pointer
-}
-
-.form-campo {
-    margin-bottom: 16px;
-}
-
-.form-campo label {
-    font-weight: bold;
+time {
     display: block;
 }
 
-.form-campo input {
-    width: 100%;
-    display: block;
-    padding: 8px;
+.post {
+    margin-bottom: 24px;
 }
 
-form {
-    max-width: 360px
+#termos {
+    margin: 16px 0;
 }
 
-form button {
-    max-width: 120px;
+.form-label {
+    margin-top: 20px;
 }
-
-
-
