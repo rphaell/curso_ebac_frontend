@@ -1,1 +1,1 @@
-Repositório feito para armanezar alguns exercícios do curso **Engeneheiro Front-end** - **EBAC** 
+Repositório feito para armanezar alguns exercícios do curso **Engenheiro Front-end** - **EBAC** 
