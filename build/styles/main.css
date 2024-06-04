@@ -67,7 +67,7 @@ section .product-item img {
 }
 section .product-button {
   display: block;
-  background-color: #44bd32;
+  background-color: #2e86de;
   color: #fff;
   text-align: center;
   padding: 8px 0;
@@ -75,8 +75,9 @@ section .product-button {
   margin-top: 8px;
   text-decoration: none;
 }
-section .product-buttonhover {
-  background-color: #4cd137;
+section .product-button:hover {
+  background-color: #c8d6e5;
+  color: black;
 }
 @media (max-width: 767px) {
   section .container {
